@@ -19,22 +19,22 @@
 1. **Clone the repository** and set up a virtual environment:
 
 ```bash
-git clone https://github.com/Amir-Sa02/Cafe-Chat-Assistant
-cd Cafe-Chat-Assistant
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+$ git clone https://github.com/Amir-Sa02/Cafe-Chat-Assistant
+$ cd Cafe-Chat-Assistant
+$ python -m venv venv
+$ . venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
 2. **Install dependencies:**
 
 ```bash
-pip install Flask torch torchvision nltk
+$ pip install Flask torch torchvision nltk
 ```
 
 3. **Download NLTK tokenizer model:**
 
 ```python
-python
+$ (venv) python
 >>> import nltk
 >>> nltk.download('punkt')
 >>> nltk.download('punkt_tab')
@@ -47,7 +47,7 @@ python
 Optionally, you can update `intents.json` with your own tags, patterns, and responses. Then run:
 
 ```bash
-python train.py
+$ (venv) python train.py
 ```
 This creates a `data.pth` file that stores the trained model.
 
@@ -56,7 +56,7 @@ This creates a `data.pth` file that stores the trained model.
 To test the chatbot in the terminal:
 
 ```bash
-python chat.py
+$ (venv) python chat.py
 ```
 
 ---
@@ -66,7 +66,7 @@ python chat.py
 Start the Flask app:
 
 ```bash
-python app.py
+$ (venv) python app.py
 ```
 
 Then open your browser and go to `http://127.0.0.1:5000/`.
