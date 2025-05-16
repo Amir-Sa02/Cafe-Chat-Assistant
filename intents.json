@@ -1,0 +1,301 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there",
+        "Hello",
+        "Good day",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "Greetings",
+        "What is up",
+        "Yo",
+        "Hiya"
+      ],
+      "responses": [
+        "Hey there! How can I help you today?",
+        "Hello! Thanks for stopping by.",
+        "Hi! What can I do for you?",
+        "Good day! How may I assist you?",
+        "Hi there!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you",
+        "How are you doing",
+        "How's it going",
+        "What's up",
+        "How do you do",
+        "Are you okay",
+        "Are you good"
+      ],
+      "responses": [
+        "I'm doing great, thank you! How about you?",
+        "I'm fine, thanks for asking. How can I help you today?",
+        "Feeling good! Hope you're doing well too.",
+        "All good on my end — ready to chat with you!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Farewell",
+        "Talk to you soon",
+        "I am off",
+        "Later",
+        "Peace out"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Come back anytime.",
+        "Farewell! Thanks for visiting.",
+        "Talk to you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That is helpful",
+        "Thanks a lot",
+        "I appreciate it",
+        "Much obliged",
+        "Cheers",
+        "You rock",
+        "Great help"
+      ],
+      "responses": [
+        "You are welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could help.",
+        "Always here for you!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have",
+        "What is on the menu",
+        "What do you sell",
+        "Show me your products",
+        "What beverages do you offer",
+        "Do you have any food",
+        "Any snacks available",
+        "Do you serve breakfast",
+        "Do you have pastries"
+      ],
+      "responses": [
+        "We offer a variety of coffees, teas, and pastries.",
+        "Our menu includes espresso, latte, cold brew, herbal tea, and fresh pastries.",
+        "We have drip coffee, cappuccino, matcha latte, muffins, and croissants."
+      ]
+    },
+    {
+      "tag": "unavailable_items",
+      "patterns": [
+        "Do you have cakes",
+        "Is cheesecake available",
+        "Can I order a milkshake",
+        "Do you serve smoothies",
+        "Do you have frappuccino",
+        "Is there any cake",
+        "Do you have desserts"
+      ],
+      "responses": [
+        "Sorry, we currently don't have that item on our menu.",
+        "Unfortunately, we don't serve that at the moment.",
+        "That item is not available right now. Please check our menu for what we offer.",
+        "Apologies, that is not part of our current offerings."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much is a latte",
+        "What is the price of cappuccino",
+        "How much does tea cost",
+        "Can you tell me the price",
+        "How much is a muffin",
+        "Price of croissant",
+        "How much do drinks cost",
+        "What are your prices"
+      ],
+      "responses": [
+        "Please refer to our menu for the most up-to-date prices.",
+        "You can check our pricing on the in-store or online menu.",
+        "Prices vary based on the item—please check the menu for details.",
+        "For accurate pricing, kindly have a look at our menu."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards",
+        "Can I pay with PayPal",
+        "Are you cash only",
+        "What payment methods do you accept",
+        "Do you accept contactless payment",
+        "Can I use Apple Pay",
+        "Do you have mobile payment"
+      ],
+      "responses": [
+        "We accept Visa, Mastercard, PayPal, Apple Pay, and Google Pay.",
+        "Major credit cards and mobile payments are accepted.",
+        "Yes, we take credit cards, mobile payments, and cash."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Do you deliver",
+        "How long does delivery take",
+        "What is your shipping time",
+        "When will I get my order",
+        "Do you offer delivery service",
+        "Can I get it delivered",
+        "Do you do same day delivery"
+      ],
+      "responses": [
+        "Delivery takes 30 minutes in the neighborhood.",
+        "We ship within 30 minutes.",
+        "Yes, we offer delivery and it typically takes 30 minutes."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know a joke",
+        "Say something funny",
+        "Make me laugh",
+        "Do you have any jokes"
+      ],
+      "responses": [
+        "Why did the coffee file a police report? It got mugged.",
+        "What do you call sad coffee? A depresso.",
+        "Why do not basketball players drink coffee? Because it might affect their drip."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours",
+        "When do you open",
+        "When do you close",
+        "Opening hours",
+        "Business hours",
+        "Are you open on weekends",
+        "Holiday hours"
+      ],
+      "responses": [
+        "We are open every day from 8 AM to 8 PM.",
+        "Our hours are 8:00 AM until 8:00 PM daily.",
+        "We operate daily between 8 AM and 8 PM."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located",
+        "What is your address",
+        "Location of the cafe",
+        "Where is the shop",
+        "Address",
+        "How do I get there",
+        "Are you near metro"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, Springfield.",
+        "Our address is 123 Main St, City Center.",
+        "You can find us at 123 Main Street."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "What do you recommend",
+        "Any specials today",
+        "What is popular",
+        "What is the specialty",
+        "Can you suggest something",
+        "What is your top pick",
+        "I need a recommendation"
+      ],
+      "responses": [
+        "Our special today is the caramel latte.",
+        "I recommend trying our cold brew—it is very popular!",
+        "The matcha latte is a customer favorite."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have Wi Fi",
+        "What is the Wi Fi password",
+        "Is there free Wi Fi",
+        "Can I connect to internet",
+        "Wi Fi available"
+      ],
+      "responses": [
+        "Yes, we offer free Wi-Fi. The password is “BlackMoon123.”",
+        "Our Wi-Fi network is “BlackMoon_WiFi,” password “1234coffee.”"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is the name of this cafe",
+        "What is your name",
+        "Who are you",
+        "What should I call you",
+        "What is your cafe called"
+      ],
+      "responses": [
+        "Our cafe name is Black Moon.",
+        "I am the assistant of Black Moon cafe.",
+        "You can call us Black Moon."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "Do you have gluten free options",
+        "Any dairy free drinks",
+        "Do you offer vegan items",
+        "Nut free pastries",
+        "Allergy friendly"
+      ],
+      "responses": [
+        "Yes, we have gluten free pastries and vegan milk options.",
+        "We offer dairy free, nut free, and vegan choices. Just ask our barista!"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I have feedback",
+        "I want to leave a review",
+        "How can I give feedback",
+        "Compliments",
+        "Complaint"
+      ],
+      "responses": [
+        "We would love to hear your feedback! Email us at feedback@blackmoon.com."
+      ]
+    }
+  ]
+}
