@@ -70,10 +70,3 @@ $ (venv) python app.py
 ```
 
 Finally, open your browser and navigate to http://127.0.0.1:5000/ to start chatting with your assistant on the web interface.
-
----
-
-## Acknowledgments
-
-* Frontend design inspiration: [hitchcliff/front-end-chatjs](https://github.com/hitchcliff/front-end-chatjs)
-* Backend inspired by: [python-engineer/chatbot-deployment](https://github.com/python-engineer/chatbot-deployment)
