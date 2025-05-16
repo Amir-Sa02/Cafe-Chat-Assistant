@@ -69,7 +69,7 @@ Start the Flask app:
 $ (venv) python app.py
 ```
 
-Then open your browser and go to `http://127.0.0.1:5000/`.
+Finally, open your browser and navigate to http://127.0.0.1:5000/ to start chatting with your assistant on the web interface.
 
 ---
 
