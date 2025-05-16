@@ -19,9 +19,9 @@
 1. **Clone the repository** and set up a virtual environment:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-python3 -m venv venv
+git clone https://github.com/Amir-Sa02/Cafe-Chat-Assistant
+cd Cafe-Chat-Assistant
+python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
@@ -37,19 +37,21 @@ pip install Flask torch torchvision nltk
 python
 >>> import nltk
 >>> nltk.download('punkt')
+>>> nltk.download('punkt_tab')
 ```
 
 ---
 
 ## Train the chatbot model
 
-Update `intents.json` with your own tags, patterns, and responses. Then run:
+Optionally, you can update `intents.json` with your own tags, patterns, and responses. Then run:
 
 ```bash
 python train.py
 ```
-
 This creates a `data.pth` file that stores the trained model.
+
+**Notice:**  The model is trained before and you can also use the chatbot without doing this part.
 
 To test the chatbot in the terminal:
 
@@ -70,28 +72,6 @@ python app.py
 Then open your browser and go to `http://127.0.0.1:5000/`.
 
 ---
-
-## Project Structure
-
-```
-├── app.py              
-├── app.js              
-├── templates/
-│   └── index.html      
-├── static/
-│   ├── style.css       
-│   ├── app.js         
-│   └── images/
-│       └── chatbox-icon.svg
-├── intents.json        # Chatbot intents (tags, patterns, responses)
-├── model.py            # Neural network model
-├── train.py            # Model training
-├── data.pth            # Trained model weights
-└── utils.py            # Helper functions
-```
-
----
-
 
 ## Acknowledgments
 
